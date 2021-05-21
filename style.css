@@ -1,0 +1,389 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* base */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #000;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    /* display: block; */
+}
+
+.section-wrapper {
+    padding: 20px 10% 20px;
+}
+
+.title-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 30px;
+    /* background-color:blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 20px 6px 20px;
+}
+
+.header-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 6px 20px 6px 60px; 
+}
+
+
+.header-list {
+    display: flex;
+    padding: 6px 100px 6px 20px;
+}
+
+.header-item {
+    list-style: none;
+    color: #000;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* main */
+
+/* fv */
+
+.fv {
+    background-image: url(../デイトラ/img/main-vsual-nontitle.png);
+    /* width: 100%; */
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fv-textare {
+    line-height: 2;
+    font-weight: bold;
+}
+
+.fv-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+
+/* overview */
+
+
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.overview-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.overview-img {
+    max-width: 50%;
+    size: cover;
+    display: inline-block;
+    padding: 20px;
+}
+
+.o-img {
+    max-width: 100%;
+}
+
+.overview-text {
+    max-width: 100%;
+    padding-top: 20px;
+    line-height: 2;
+    font-size: 1.4rem;
+}
+
+
+/* course */
+
+
+
+.course-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-item {
+    max-width: 100%;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.course-img {
+    max-width: 100%;
+    
+}
+
+.c-img {
+    max-width: 100%;
+}
+
+
+
+.course-text {
+    font-weight: bold;
+}
+
+
+/* contact */
+
+.form {
+
+}
+
+.form-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#input-subject {
+    width: 300px;
+    height: 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    padding: 6px 4px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-btn {
+    display: inline-block;
+    width: 230px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+    background-color: rgb(190, 42, 42);
+    justify-content: center;
+    border: 1px solid rgb(190, 42, 42);
+}
+
+
+
+/* footer */
+
+.small-wrapper {
+    text-align: right;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+/* base */
+
+.section-wrapper {
+    padding: 40px 5% 20px;
+}
+
+
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 100%;
+}
+
+.header-title {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.header-list {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+/* fv */
+
+.fv {
+    /* object-position: 0 100%; */
+    object-fit: contain;
+}
+
+
+/* overview */
+
+.overview-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.overview-img {
+    max-width: 100%;
+}
+
+/* course */
+
+.course-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.course-item {
+    margin-bottom: 16px;
+}
+
+.course-text {
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    margin-top: 4px;
+}
+
+
+/* footer */
+
+.small-wrapper {
+    text-align: center;
+    padding: 8px 0 8px 0;
+}
+
+}
